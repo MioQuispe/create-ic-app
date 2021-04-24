@@ -20,25 +20,9 @@ With NPM:
 npx create-ic-app
 ```
 
-Now we need to get our example canister running
+<img width=300 src="https://i.imgur.com/d0ASP0v.png" />
 
-```
-cd my-app
-npm install
-
-dfx start --background
-dfx canister create --all
-dfx build
-dfx canister install --all
-```
-
-And finally, start the frontend
-
-```
-npm run dev
-```
-
-Thats it! The counter you see is persisted on your local Internet Computer.
+Just follow instructions and thats it! The counter demo is persisted on your local Internet Computer.
 
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
