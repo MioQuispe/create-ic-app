@@ -22,7 +22,23 @@ npx create-ic-app
 
 <img width=300 src="https://i.imgur.com/d0ASP0v.png" />
 
-Just follow the instructions and thats it! The counter demo is persisted on your local Internet Computer.
+After the setup is done
+```
+cd test-react
+npm install
+```
+Start the backend
+```
+dfx start --background
+dfx canister create --all
+dfx build
+dfx canister install --all
+```
+Start the frontend
+```
+npm run dev
+```
+Thats it! The counter demo is persisted on your local Internet Computer.
 
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
