@@ -1,7 +1,7 @@
 import { defineConfig } from "vite"
-import reactRefresh from "@vitejs/plugin-react-refresh"
-import path from "path"
+import vue from "@vitejs/plugin-vue"
 import dfxJson from "./dfx.json"
+import path from "path"
 
 // List of all aliases for canisters
 const aliases = Object.entries(dfxJson.canisters).reduce(
@@ -26,7 +26,7 @@ const aliases = Object.entries(dfxJson.canisters).reduce(
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactRefresh()],
+  plugins: [vue()],
   resolve: {
     alias: {
       ...aliases,

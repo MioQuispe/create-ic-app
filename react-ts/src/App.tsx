@@ -6,18 +6,18 @@ import { counter } from "./agent"
 function App() {
   const [count, setCount] = useState()
 
-  const refreshCount = useCallback(async () => {
+  const refreshCounter = useCallback(async () => {
     const res: any = await counter.getValue()
     setCount(res.toString())
   }, [])
 
   useEffect(() => {
-    refreshCount()
+    refreshCounter()
   }, [])
 
   const onIncrementClick = useCallback(async () => {
     await counter.increment()
-    refreshCount()
+    refreshCounter()
   }, [counter])
 
   return (
