@@ -62,11 +62,11 @@ const FRAMEWORKS = [
     name: "react",
     color: cyan,
     variants: [
-      // {
-      //   name: 'react',
-      //   display: 'JavaScript',
-      //   color: yellow
-      // },
+      {
+        name: 'react',
+        display: 'JavaScript',
+        color: yellow
+      },
       {
         name: "react-ts",
         display: "TypeScript",
@@ -78,11 +78,11 @@ const FRAMEWORKS = [
     name: "vue",
     color: green,
     variants: [
-      // {
-      //   name: 'vue',
-      //   display: 'JavaScript',
-      //   color: yellow
-      // },
+      {
+        name: 'vue',
+        display: 'JavaScript',
+        color: yellow
+      },
       {
         name: "vue-ts",
         display: "TypeScript",
@@ -94,11 +94,11 @@ const FRAMEWORKS = [
     name: "svelte",
     color: red,
     variants: [
-      // {
-      //   name: 'svelte',
-      //   display: 'JavaScript',
-      //   color: yellow
-      // },
+      {
+        name: 'svelte',
+        display: 'JavaScript',
+        color: yellow
+      },
       {
         name: "svelte-ts",
         display: "TypeScript",

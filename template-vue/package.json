@@ -1,9 +1,9 @@
 {
-  "name": "ic-vite-vue-typescript-starter",
+  "name": "ic-vite-vue-starter",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
@@ -12,12 +12,8 @@
     "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@types/buffers": "^0.1.31",
-    "@types/node": "^14.14.41",
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
-    "typescript": "^4.1.3",
     "vite": "^2.1.5",
-    "vue-tsc": "^0.0.24"
   }
 }
