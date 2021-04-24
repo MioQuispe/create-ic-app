@@ -14,11 +14,10 @@ DFX_VERSION=0.7.0-beta.3 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh
 
 ## Get Started
 
-Type the following into a terminal. Substitute react-ts for your preferred framework (vue-ts, svelte-ts currently) and
-my-app for the name of your app. It will work as long as you have npm installed on your system
+With NPM:
 
 ```
-npx degit MioQuispe/ic-starter-templates/react-ts my-app
+npx create-ic-app
 ```
 
 Now we need to get our example canister running

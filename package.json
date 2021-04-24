@@ -1,11 +1,18 @@
 {
   "name": "create-ic-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "<img height=160 src=\"https://sdk.dfinity.org/_/img/logo.svg\" />",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin":  {
+    "create-ic-app": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MioQuispe/ic-starter-templates.git"
