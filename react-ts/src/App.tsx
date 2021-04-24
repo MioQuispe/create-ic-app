@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState()
 
   const refreshCount = useCallback(async () => {
-    const res = await counter.getValue()
+    const res: any = await counter.getValue()
     setCount(res.toString())
   }, [])
 

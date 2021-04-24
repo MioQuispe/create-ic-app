@@ -42,7 +42,7 @@ And finally, start frontend
 npm run dev
 ```
 
-Thats it!
+Thats it! The counter you see is persisted on your local Internet Computer.
 
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
@@ -52,4 +52,4 @@ You will have to edit 3 files:
 * tsconfig.json
 * src/agent.ts
 
-More detailed instructions later. For now see how it's done in those files.
+More detailed instructions later. For now see how it's done in those files for the example counter canister.
