@@ -22,7 +22,7 @@ npx create-ic-app
 
 <img width=300 src="https://i.imgur.com/d0ASP0v.png" />
 
-Just follow instructions and thats it! The counter demo is persisted on your local Internet Computer.
+Just follow the instructions and thats it! The counter demo is persisted on your local Internet Computer.
 
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
