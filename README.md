@@ -33,7 +33,7 @@ dfx build
 dfx canister install --all
 ```
 
-And finally, start frontend
+And finally, start the frontend
 
 ```
 npm run dev
