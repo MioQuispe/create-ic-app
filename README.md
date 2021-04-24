@@ -24,7 +24,7 @@ npx create-ic-app
 
 After the setup is done
 ```
-cd test-react
+cd test-project
 npm install
 ```
 Start the backend
