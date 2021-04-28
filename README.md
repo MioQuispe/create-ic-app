@@ -2,7 +2,7 @@
 
 # Internet Computer Starter Templates
 
-Templates for your favourite frontend framework powered by ViteJS
+Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
 ## Requirements
 
