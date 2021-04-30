@@ -51,3 +51,17 @@ You will have to edit 3 files:
 * src/agent.ts
 
 More detailed instructions later. For now see how it's done in those files for the example counter canister.
+
+## Deploying Asset Canister
+
+Run the following commands
+```
+dfx build
+dfx canister install --all --mode=reinstall
+```
+Then grab the asset canister ID from the output. Shown here:
+<img width=600 src="https://i.imgur.com/1gYNukK.png" />
+
+Now you can visit the following url in your browser to see it running on your local internet computer:
+
+```http://localhost:8000?canisterId=<CopiedCanisterId>```
