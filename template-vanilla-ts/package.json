@@ -1,0 +1,19 @@
+{
+  "name": "ic-vite-typescript-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "postinstall": "patch-package"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "patch-package": "^6.4.7",
+    "vite": "^2.2.3"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.8.3",
+    "@dfinity/authentication": "^0.7.1"
+  }
+}

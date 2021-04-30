@@ -1,0 +1,18 @@
+{
+  "name": "ic-vite-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "postinstall": "patch-package"
+  },
+  "devDependencies": {
+    "vite": "^2.2.3",
+    "patch-package": "^6.4.7"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.8.3",
+    "@dfinity/authentication": "^0.7.1"
+  }
+}

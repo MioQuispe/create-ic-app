@@ -26,7 +26,12 @@
      * of JS in `.svelte` files.
      */
     "allowJs": true,
-    "checkJs": true
+    "checkJs": true,
+    "paths": {
+      "dfx-generated/counter": [
+        ".dfx/local/canisters/counter/counter.js"
+      ]
+    }
   },
   /**
    * Use global.d.ts instead of compilerOptions.types

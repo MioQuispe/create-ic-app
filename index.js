@@ -42,30 +42,30 @@ const {
 const cwd = process.cwd()
 
 const FRAMEWORKS = [
-  // {
-  //   name: "vanilla",
-  //   color: yellow,
-  //   variants: [
-  //     {
-  //       name: "vanilla",
-  //       display: "JavaScript",
-  //       color: yellow,
-  //     },
-  //     {
-  //       name: "vanilla-ts",
-  //       display: "TypeScript",
-  //       color: blue,
-  //     },
-  //   ],
-  // },
+  {
+    name: "vanilla",
+    color: yellow,
+    variants: [
+      {
+        name: "vanilla",
+        display: "JavaScript",
+        color: yellow,
+      },
+      {
+        name: "vanilla-ts",
+        display: "TypeScript",
+        color: blue,
+      },
+    ],
+  },
   {
     name: "react",
     color: cyan,
     variants: [
       {
-        name: 'react',
-        display: 'JavaScript',
-        color: yellow
+        name: "react",
+        display: "JavaScript",
+        color: yellow,
       },
       {
         name: "react-ts",
@@ -79,9 +79,9 @@ const FRAMEWORKS = [
     color: green,
     variants: [
       {
-        name: 'vue',
-        display: 'JavaScript',
-        color: yellow
+        name: "vue",
+        display: "JavaScript",
+        color: yellow,
       },
       {
         name: "vue-ts",
@@ -95,9 +95,9 @@ const FRAMEWORKS = [
     color: red,
     variants: [
       {
-        name: 'svelte',
-        display: 'JavaScript',
-        color: yellow
+        name: "svelte",
+        display: "JavaScript",
+        color: yellow,
       },
       {
         name: "svelte-ts",
