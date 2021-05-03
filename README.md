@@ -42,6 +42,13 @@ Thats it! The counter demo is persisted on your local Internet Computer.
 
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
+## [Experimental] Watch mode for canisters
+This will auto build and install your canisters whenever you make a change to them
+```
+npm run watch
+```
+<img width=300 src="https://i.imgur.com/JY6slsW.gif" />
+
 ## Adding / Removing / Renaming Canisters
 
 You will have to edit 3 files:
