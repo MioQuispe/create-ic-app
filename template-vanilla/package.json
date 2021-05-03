@@ -5,9 +5,11 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "watch": "ic-dfx-watch"
   },
   "devDependencies": {
+    "ic-dfx-utils": "^0.0.14",
     "vite": "^2.2.3",
     "patch-package": "^6.4.7"
   },

@@ -5,7 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "watch": "ic-dfx-watch"
   },
   "dependencies": {
     "@dfinity/agent": "^0.8.3",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
+    "ic-dfx-utils": "^0.0.14",
     "patch-package": "^6.4.7",
     "vite": "^2.1.5"
   }
