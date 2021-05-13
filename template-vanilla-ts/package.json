@@ -5,17 +5,15 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "postinstall": "patch-package",
     "watch": "ic-dfx-watch"
   },
   "devDependencies": {
     "ic-dfx-utils": "^0.0.14",
     "typescript": "^4.2.3",
-    "patch-package": "^6.4.7",
-    "vite": "^2.2.3"
+    "vite": "^2.3.2"
   },
   "dependencies": {
-    "@dfinity/agent": "^0.8.3",
-    "@dfinity/authentication": "^0.7.1"
+    "@dfinity/agent": "^0.8.6",
+    "@dfinity/authentication": "^0.8.6"
   }
 }
