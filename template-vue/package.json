@@ -8,8 +8,8 @@
     "watch": "ic-dfx-watch"
   },
   "dependencies": {
-    "@dfinity/agent": "^0.8.6",
-    "@dfinity/authentication": "^0.8.6",
+    "@dfinity/agent": "0.8.6",
+    "@dfinity/authentication": "0.8.6",
     "vue": "^3.0.5"
   },
   "devDependencies": {

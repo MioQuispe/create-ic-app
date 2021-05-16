@@ -13,7 +13,7 @@
     "vite": "^2.3.2"
   },
   "dependencies": {
-    "@dfinity/agent": "^0.8.6",
-    "@dfinity/authentication": "^0.8.6"
+    "@dfinity/agent": "0.8.6",
+    "@dfinity/authentication": "0.8.6"
   }
 }
