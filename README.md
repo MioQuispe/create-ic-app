@@ -1,6 +1,6 @@
 <img height=160 src="https://sdk.dfinity.org/_/img/logo.svg" />
 
-# Internet Computer Starter Templates
+# Create IC App
 
 Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
