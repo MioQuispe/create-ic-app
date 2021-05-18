@@ -75,3 +75,6 @@ Now you can visit the following url in your browser to see it running on your lo
 
 ## Community templates / Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs! Happy to assist you in this. You'll receive full credit for your contribution of course.
+
+### Contributions
+@ferMartz (React JS + Tailwind template)
