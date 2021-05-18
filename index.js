@@ -36,6 +36,7 @@ const {
   blue,
   magenta,
   lightRed,
+  lightBlue,
   red,
 } = require("kolorist")
 
@@ -71,6 +72,11 @@ const FRAMEWORKS = [
         name: "react-ts",
         display: "TypeScript",
         color: blue,
+      },
+      {
+        name: "react-tw",
+        display: "JS + Tailwind (by ferMartz)",
+        color: lightBlue,
       },
     ],
   },
