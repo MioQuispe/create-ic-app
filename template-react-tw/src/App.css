@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(26, 117, 255);
+}
+
+.demo-button {
+  font-size: calc(10px + 2vmin);
+  background: linear-gradient(237.86deg,#532885 -20%,#ee1f7a 124%);
+  padding: 0 2em;
+  border-radius: 60px;
+  font-size: 0.7em;
+  line-height: 40px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
