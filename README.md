@@ -4,6 +4,7 @@
 
 Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
+
 ## Requirements
 
 Install the beta version of the DFINITY Canister SDK
@@ -14,13 +15,9 @@ DFX_VERSION=0.7.0-beta.8 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh
 
 ## Get Started
 
-With NPM:
-
 ```
 npx create-ic-app
 ```
-
-<img width=300 src="https://i.imgur.com/d0ASP0v.png" />
 
 After the setup is done
 ```
@@ -57,19 +54,23 @@ You will have to edit 3 files:
 
 More detailed instructions later. For now see how it's done in those files for the example counter canister.
 
-## Deploying Asset Canister
-
-Run the following commands
+## Running Asset Canister on your local replica
 ```
-dfx build
-dfx canister install --all --mode=reinstall
+npm run build
+dfx deploy
 ```
-Then grab the asset canister ID from the output. Shown here:
-<img width=600 src="https://i.imgur.com/1gYNukK.png" />
+Then grab the asset canister ID from the output.
 
 Now you can visit the following url in your browser to see it running on your local internet computer:
 
 ```http://localhost:8000?canisterId=<CopiedCanisterId>```
+
+## Deploy Asset Canister
+
+For now you can only do this through [fleek.co](Fleek).
+* remove `ic-dfx-utils` from the project.
+* Choose `fleek/create-react-app` as the docker image in fleek.
+* Set publish directory as `dist`.
 
 ## Community templates / Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs! Happy to assist you in this. You'll receive full credit for your contribution of course.
