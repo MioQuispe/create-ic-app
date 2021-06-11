@@ -30,9 +30,7 @@ npm install
 Start the backend
 ```
 dfx start --background
-dfx canister create --all
-dfx build
-dfx canister install --all
+dfx deploy
 ```
 Start the frontend
 ```
