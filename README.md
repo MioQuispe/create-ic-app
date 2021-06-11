@@ -57,9 +57,9 @@ More detailed instructions later. For now see how it's done in those files for t
 ## Deploying Asset Canister
 
 For now you can only do this through [fleek.co](Fleek).
-* remove `ic-dfx-utils` from the project.
-* Choose `fleek/create-react-app` as the docker image in fleek.
-* Set publish directory as `dist`.
+* remove `ic-dfx-utils` from the project
+* Choose `fleek/create-react-app` as the docker image in fleek
+* Set publish directory as `dist`
 
 ## Community templates / Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs! Happy to assist you in this. You'll receive full credit for your contribution of course.
