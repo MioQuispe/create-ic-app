@@ -5,7 +5,7 @@
 Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
 
-## Requirements
+#### Requirements
 
 * Install the beta version of the DFINITY Canister SDK
 
@@ -68,5 +68,5 @@ npm run watch
 ## Community templates / Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs! Happy to assist you in this. You'll receive full credit for your contribution of course.
 
-### Contributions
+#### Contributions
 @ferMartz (React JS + Tailwind template)
