@@ -54,18 +54,7 @@ You will have to edit 3 files:
 
 More detailed instructions later. For now see how it's done in those files for the example counter canister.
 
-## Running Asset Canister on your local replica
-```
-npm run build
-dfx deploy
-```
-Then grab the asset canister ID from the output.
-
-Now you can visit the following url in your browser to see it running on your local internet computer:
-
-```http://localhost:8000?canisterId=<CopiedCanisterId>```
-
-## Deploy Asset Canister
+## Deploying Asset Canister
 
 For now you can only do this through [fleek.co](Fleek).
 * remove `ic-dfx-utils` from the project.
