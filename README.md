@@ -37,12 +37,6 @@ Thats it! The counter demo is persisted on your local Internet Computer.
 
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
-## [Experimental] Watch mode for canisters
-This will auto build and install your canisters whenever you make a change to them
-```
-npm run watch
-```
-<img width=300 src="https://i.imgur.com/JY6slsW.gif" />
 
 ## Adding / Removing / Renaming Canisters
 
@@ -57,9 +51,17 @@ More detailed instructions later. For now see how it's done in those files for t
 ## Deploying Asset Canister
 
 For now you can only do this through [fleek.co](Fleek).
-* remove `ic-dfx-utils` from the project
+
+* Remove `ic-dfx-utils` from the project
 * Choose `fleek/create-react-app` as the docker image in fleek
 * Set publish directory as `dist`
+
+## [Experimental] Watch mode for canisters
+This will auto build and install your canisters whenever you make a change to them
+```
+npm run watch
+```
+<img width=300 src="https://i.imgur.com/JY6slsW.gif" />
 
 ## Community templates / Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs! Happy to assist you in this. You'll receive full credit for your contribution of course.
