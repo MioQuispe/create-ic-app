@@ -15,7 +15,7 @@ DFX_VERSION=0.7.0 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 
 * NodeJS >=16.0.0
 
-## Get Started
+## ⚡️ Get Started
 
 ```
 npx create-ic-app
@@ -40,7 +40,7 @@ Thats it! The counter demo is persisted on your local Internet Computer.
 <img width=500 src="https://cdn.discordapp.com/attachments/748420568268800060/835322875690221578/unknown.png" />
 
 
-## Adding / Removing / Renaming Canisters
+## :gear: Adding / Removing / Renaming Canisters
 
 You will have to edit 3 files:
 
@@ -50,7 +50,7 @@ You will have to edit 3 files:
 
 More detailed instructions later. For now see how it's done in those files for the example counter canister.
 
-## Deploying Asset Canister
+## 📦 Deploying Asset Canister
 
 For now you can only do this through [fleek.co](Fleek).
 
@@ -58,14 +58,14 @@ For now you can only do this through [fleek.co](Fleek).
 * Choose `fleek/create-react-app` as the docker image in fleek
 * Set publish directory as `dist`
 
-## [Experimental] Watch mode for canisters
+## :eye: [Experimental] Watch mode for canisters
 This will auto build and install your canisters whenever you make a change to them
 ```
 npm run watch
 ```
 <img width=300 src="https://i.imgur.com/JY6slsW.gif" />
 
-## Community templates / Contributions
+## :trophy: Community templates / Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs! Happy to assist you in this. You'll receive full credit for your contribution of course.
 
 #### Contributions
