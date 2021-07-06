@@ -75,7 +75,7 @@ However when developing it skips that because it's unnecessary, and hence provid
 #### Q: I'm getting compilation errors like:
 `ReferenceError: Buffer is not defined`
 
-A: Double check that @dfinity packages are the same as in the original templates. I've locked them to specific versions for now because newer ones are causing issues.
+A: Double check that `@dfinity/...` versions in `package.json` are the same as in the original templates. I've locked them to specific versions for now because newer ones are causing issues.
 
 #### Q: I want to modify things like directory structure. Can I?
 
