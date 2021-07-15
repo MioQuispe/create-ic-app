@@ -1,6 +1,7 @@
 import { defineConfig } from "vite"
 import reactRefresh from "@vitejs/plugin-react-refresh"
 import path from "path"
+import babel from "@rollup/plugin-babel"
 import dfxJson from "./dfx.json"
 
 // List of all aliases for canisters
@@ -31,5 +32,23 @@ export default defineConfig({
     alias: {
       ...aliases,
     },
+  },
+  rollupInputOptions: {
+    plugins: [
+      babel({
+        presets: [
+          [
+            "@babel/preset-env",
+            {
+              corejs: 2,
+              useBuiltIns: "usage",
+              targets: {
+                ie: "11",
+              },
+            },
+          ],
+        ],
+      }),
+    ],
   },
 })
