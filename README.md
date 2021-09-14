@@ -10,7 +10,7 @@ Modern, unopinionated frontend templates for the Internet Computer powered by [V
 
 #### Requirements
 
-[DFINITY Canister SDK](https://dfinity.org/developers/)
+[DFINITY Canister SDK](https://dfinity.org/developers/) latest one, templates are set to 0.8.1
 
 
 ## Setup
