@@ -44,22 +44,6 @@ const cwd = process.cwd()
 
 const FRAMEWORKS = [
   {
-    name: "vanilla",
-    color: yellow,
-    variants: [
-      {
-        name: "vanilla",
-        display: "JavaScript",
-        color: yellow,
-      },
-      {
-        name: "vanilla-ts",
-        display: "TypeScript",
-        color: blue,
-      },
-    ],
-  },
-  {
     name: "react",
     color: cyan,
     variants: [
@@ -72,11 +56,6 @@ const FRAMEWORKS = [
         name: "react-ts",
         display: "TypeScript",
         color: blue,
-      },
-      {
-        name: "react-tw",
-        display: "JS + Tailwind (by ferMartz)",
-        color: lightBlue,
       },
     ],
   },
@@ -109,6 +88,33 @@ const FRAMEWORKS = [
         name: "svelte-ts",
         display: "TypeScript",
         color: blue,
+      },
+    ],
+  },
+  {
+    name: "vanilla",
+    color: yellow,
+    variants: [
+      {
+        name: "vanilla",
+        display: "JavaScript",
+        color: yellow,
+      },
+      {
+        name: "vanilla-ts",
+        display: "TypeScript",
+        color: blue,
+      },
+    ],
+  },
+  {
+    name: "community templates",
+    color: magenta,
+    variants: [
+      {
+        name: "react-tw",
+        display: "JS + Tailwind (by ferMartz)",
+        color: lightBlue,
       },
     ],
   },

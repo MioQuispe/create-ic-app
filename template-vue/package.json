@@ -1,21 +1,22 @@
 {
-  "name": "ic-vite-vue-starter",
+  "name": "my-ic-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "watch": "ic-dfx-watch"
+    "serve": "vite preview"
   },
   "dependencies": {
-    "@dfinity/agent": "0.8.7",
-    "@dfinity/authentication": "0.8.7",
+    "@dfinity/agent": "0.10.0",
+    "@dfinity/auth-client": "^0.10.0",
+    "@dfinity/authentication": "0.10.0",
+    "@dfinity/principal": "^0.10.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
-    "ic-dfx-utils": "^0.0.14",
-    "vite": "^2.3.2"
+    "buffer": "^6.0.3",
+    "vite": "^2.5.7"
   }
 }

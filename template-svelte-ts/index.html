@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/frontend/assets/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+<body>
+<div id="root"></div>
+<script type="module">
+  /**
+   * @dfinity/agent requires this. Can be removed once it's fixed
+   */
+  import { Buffer } from "buffer"
+
+  window.global = window
+  window.Buffer = Buffer
+</script>
+<script type="module" src="/frontend/main.ts"></script>
+</body>
 </html>

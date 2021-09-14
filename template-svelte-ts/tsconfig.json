@@ -27,9 +27,12 @@
      */
     "allowJs": true,
     "checkJs": true,
+    "types": [
+      "vite/client"
+    ],
     "paths": {
-      "dfx-generated/counter": [
-        ".dfx/local/canisters/counter/counter.js"
+      "canisters/counter": [
+        ".dfx/local/canisters/counter"
       ]
     }
   },
@@ -37,5 +40,5 @@
    * Use global.d.ts instead of compilerOptions.types
    * to avoid limiting type declarations.
    */
-  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
+  "include": ["frontend/**/*.d.ts", "frontend/**/*.ts", "frontend/**/*.js", "frontend/**/*.svelte"]
 }

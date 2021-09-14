@@ -23,12 +23,12 @@
     "jsx": "react",
     "baseUrl": ".",
     "paths": {
-      "dfx-generated/counter": [
-        ".dfx/local/canisters/counter/counter.js"
+      "canisters/counter": [
+        ".dfx/local/canisters/counter"
       ]
     }
   },
   "include": [
-    "./src"
+    "./frontend"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "create-ic-app",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "<img height=160 src=\"https://sdk.dfinity.org/_/img/logo.svg\" />",
   "main": "index.js",
   "scripts": {
@@ -15,14 +15,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MioQuispe/ic-starter-templates.git"
+    "url": "git+https://github.com/MioQuispe/create-ic-app.git"
   },
   "author": "Mio Quispe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MioQuispe/ic-starter-templates/issues"
+    "url": "https://github.com/MioQuispe/create-ic-app/issues"
   },
-  "homepage": "https://github.com/MioQuispe/ic-starter-templates#readme",
+  "homepage": "https://github.com/MioQuispe/create-ic-app#readme",
   "dependencies": {
     "enquirer": "^2.3.6",
     "kolorist": "^1.4.1",

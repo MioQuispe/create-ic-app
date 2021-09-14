@@ -4,6 +4,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
+    "noImplicitAny":  false,
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
@@ -12,10 +13,10 @@
     "types": ["vite/client"],
     "baseUrl": ".",
     "paths": {
-      "dfx-generated/counter": [
-        ".dfx/local/canisters/counter/counter.js"
+      "canisters/counter": [
+        ".dfx/local/canisters/counter"
       ]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["frontend/**/*.ts", "frontend/**/*.d.ts", "frontend/**/*.tsx", "frontend/**/*.vue"]
 }
