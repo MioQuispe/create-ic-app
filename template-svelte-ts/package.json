@@ -10,7 +10,7 @@
     "@dfinity/agent": "0.10.0",
     "@dfinity/auth-client": "^0.10.0",
     "@dfinity/authentication": "0.10.0",
-    "@dfinity/principal": "^0.10.0",
+    "@dfinity/principal": "^0.10.0"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "next",
