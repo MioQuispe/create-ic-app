@@ -3,7 +3,7 @@
 # Create IC App
 
 ```
-npx create-ic-app
+npx create-ic-app@latest
 ```
 Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
