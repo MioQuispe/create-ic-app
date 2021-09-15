@@ -11,6 +11,8 @@
     "@dfinity/auth-client": "^0.10.0",
     "@dfinity/authentication": "0.10.0",
     "@dfinity/principal": "^0.10.0",
+    "@dfinity/candid": "^0.10.0",
+    "@dfinity/identity": "^0.10.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
