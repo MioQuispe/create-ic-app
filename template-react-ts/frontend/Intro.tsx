@@ -50,12 +50,7 @@ export function Intro() {
             <code>dfx deploy:</code>
             <span> Compiles & deploys your canisters</span>
           </div>
-          {/*<div>*/}
-          {/*  <code>dfx deploy:</code>*/}
-          {/*  <span> Redeploy canisters</span>*/}
-          {/*</div>*/}
           <div style={{textAlign: "center", fontSize: "0.8em", marginTop: "2em"}}>
-            {/*Commands you can run:*/}
             <a
               className="App-link"
               href="https://vitejs.dev/guide/features.html"
