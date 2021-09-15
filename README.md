@@ -7,14 +7,13 @@ npx create-ic-app@latest
 ```
 Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
+React, Vue, Svelte or Vanilla JS w/ TypeScript supported
 
-#### Requirements
-
-[DFINITY Canister SDK](https://dfinity.org/developers/) latest one, templates are set to 0.8.1
 
 
 ## Setup
 
+Install latest [DFINITY Canister SDK](https://dfinity.org/developers/) (templates are set to v0.8.1)
 
 After running npx
 ```
@@ -57,9 +56,9 @@ However when developing it skips that because it's unnecessary, and hence provid
 
 A: Yes! Go wild. ViteJS is very customizable and has excellent documentation. This project is only aiming to provide useful defaults and to get you started quickly.
 
-## Community templates / Contributions
+## Contributions
 Want to contribute your own template? Find something that could be improved? Repo is open for PRs.
 
-#### Contributions
+:trophy:
 @ferMartz (React JS + Tailwind template)
 
