@@ -29,7 +29,11 @@ Thats it! Ready to go.
 <img width=800 src="https://i.imgur.com/5Lf5i7v.png" />
 
 
-## Editing canisters
+## Canisters
+Import them in your Javascript like so, it is configured in `vite.config.js` to work automatically
+```js
+import { counter } from "canisters/counter"
+```
 
 When wishing to remove, add or rename a canister, you will have to edit 2 files:
 
