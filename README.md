@@ -16,6 +16,8 @@ React, Vue, Svelte or Vanilla JS w/ TypeScript supported
 Install latest [DFINITY Canister SDK](https://dfinity.org/developers/) (templates are set to v0.8.1)
 
 After running npx
+
+***Important! You need to run all the commands in sequence!***
 ```
 cd my-ic-app
 
