@@ -7,17 +7,12 @@ npx create-ic-app@latest
 ```
 Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
 
-React, Vue, Svelte or Vanilla JS w/ TypeScript supported
-
-
-
 ## Setup
 
-Install latest [DFINITY Canister SDK](https://dfinity.org/developers/) (templates are set to v0.8.1)
+Install the [DFINITY Canister SDK](https://dfinity.org/developers/) (templates are set to v0.8.1)
 
 After running npx
 
-***Important! You need to run all the commands in sequence!***
 ```
 cd my-ic-app
 
@@ -26,6 +21,7 @@ dfx start --background
 dfx deploy
 npm run dev
 ```
+
 Thats it! Ready to go.
 
 <img width=800 src="https://i.imgur.com/5Lf5i7v.png" />
