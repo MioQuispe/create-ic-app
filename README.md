@@ -2,16 +2,22 @@
 
 # Create IC App
 
-```
-npx create-ic-app@latest
-```
-Modern, unopinionated frontend templates for the Internet Computer powered by [ViteJS](https://vitejs.dev/)
+Modern frontend templates for the Internet Computer with everything working out of the box. Powered by [ViteJS](https://vitejs.dev/)
+
+
+#### Requirements
+
+* [DFINITY Canister SDK](https://dfinity.org/developers/) latest version (v0.8.1)
+* [NodeJS](https://nodejs.org) version >= 12
 
 ## Setup
 
-Install the [DFINITY Canister SDK](https://dfinity.org/developers/) (templates are set to v0.8.1)
+Start the wizard with npx which comes with NodeJS
+```
+npx create-ic-app@latest
+```
 
-After running npx
+After the setup is finished
 
 ```
 cd my-ic-app
