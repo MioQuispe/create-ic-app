@@ -10,7 +10,7 @@ let canisterIds
 try {
   canisterIds = JSON.parse(fs.readFileSync(isDev ? ".dfx/local/canister_ids.json" : "./canister_ids.json"))
 } catch (e) {
-
+  console.error("\n⚠️  Before starting the dev server run: dfx deploy\n\n")
 }
 
 // List of all aliases for canisters

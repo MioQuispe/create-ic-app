@@ -291,9 +291,8 @@ async function init() {
 
   console.log(`\nDone. Now run:\n`)
   if (root !== cwd) {
-    console.log(`  cd ${path.relative(cwd, root)}`)
+    console.log(`  cd ${path.relative(cwd, root)}\n`)
   }
-  console.log(`\n`)
   console.log(`  ${pkgManager === "yarn" ? `yarn` : `npm install`}`)
   console.log(`  dfx start --background`)
   console.log(`  dfx deploy`)

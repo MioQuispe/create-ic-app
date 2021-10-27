@@ -16,6 +16,7 @@
     "vue": "^3.0.5"
   },
   "devDependencies": {
+    "@types/node": "^16.11.6",
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
     "buffer": "^6.0.3",

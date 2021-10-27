@@ -1,6 +1,6 @@
 {
   "name": "create-ic-app",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "<img height=160 src=\"https://sdk.dfinity.org/_/img/logo.svg\" />",
   "main": "index.js",
   "scripts": {

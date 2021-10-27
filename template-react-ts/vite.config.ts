@@ -21,7 +21,9 @@ try {
       )
       .toString(),
   )
-} catch (e) {}
+} catch (e) {
+    console.error("\n⚠️  Before starting the dev server run: dfx deploy\n\n")
+}
 
 // List of all aliases for canisters
 // This will allow us to: import { canisterName } from "canisters/canisterName"
