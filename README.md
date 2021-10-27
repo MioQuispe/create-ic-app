@@ -4,13 +4,15 @@
 
 Modern frontend templates for the Internet Computer with everything working out of the box. Powered by [ViteJS](https://vitejs.dev/)
 
-
 #### Requirements
 
 * [DFINITY Canister SDK](https://dfinity.org/developers/) latest version (v0.8.1)
 * [NodeJS](https://nodejs.org) version >= 12
 
+
 ## Setup
+
+<img width=500 src="https://i.imgur.com/vwxC6NI.gif" />
 
 Start the wizard with npx which comes with NodeJS
 ```
@@ -30,7 +32,7 @@ npm run dev
 
 Thats it! Ready to go.
 
-<img width=800 src="https://i.imgur.com/5Lf5i7v.png" />
+<img width=600 src="https://i.imgur.com/5Lf5i7v.png" />
 
 
 ## Canisters
