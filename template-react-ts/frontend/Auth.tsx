@@ -53,15 +53,15 @@ function Auth() {
 
       {!signedIn && client ? (
         <button onClick={signIn} className="auth-button">
-          Sign in
+          ${{SignIn}}
           <img style={{ width: "33px", marginRight: "-1em", marginLeft: "0.7em" }} src={dfinityLogo} />
         </button>
       ) : null}
 
       {signedIn ? (
         <>
-          <p>Signed in as: {principal}</p>
-          <button onClick={signOut} className="auth-button">Sign out</button>
+          <p>${{SignInAs}}: {principal}</p>
+          <button onClick={signOut} className="auth-button">${{SignOut}}</button>
         </>
       ) : null}
 

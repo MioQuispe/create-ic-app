@@ -2,13 +2,13 @@
 
   <div class="auth-section">
     <button v-if="!signedIn && clientReady" @click="signIn()" class="auth-button">
-      Sign In
+      ${{SignIn}}
       <img alt="" style="width: 33px; margin-right: -1em; margin-left: 0.7em;" src="./assets/dfinity.svg" />
     </button>
 
     <template v-if="signedIn">
-      <p>Signed in as: {{ principal }}</p>
-      <button @click="signOut()" class="auth-button">Sign out</button>
+      <p>${{SignInAs}}: {{ principal }}</p>
+      <button @click="signOut()" class="auth-button">${{SignOut}}</button>
     </template>
   </div>
 </template>

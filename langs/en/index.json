@@ -1,0 +1,18 @@
+{
+    "Auth": {
+        "SignIn": "Sign In",
+        "SignInAs": "Signed in as",
+        "SignOut": "Sign out"
+    },
+    "Intro": {
+        "Ready": "Ready. Lets build the new web",
+        "RunDev": "Runs the development server",
+        "RunProd": "Builds your frontend for production",
+        "RunServe": "Serves your production-built frontend locally",
+        "deploy": "Compiles & deploys your canisters",
+        "ViteDocs": "Vite Docs",
+        "ICSDKDocs": "IC SDK Docs",
+        "CountIs": "Count is",
+        "counterDesc": "This counter is running inside a canister"
+    }
+}

@@ -27,6 +27,7 @@ SOFTWARE.
 const fs = require("fs")
 const path = require("path")
 const argv = require("minimist")(process.argv.slice(2))
+const mustache = require('./libs/mustache.js')
 // eslint-disable-next-line node/no-restricted-require
 const { prompt } = require("enquirer")
 const {
@@ -261,6 +262,33 @@ async function init() {
     }
   }
 
+  const langsPath = path.join(__dirname, 'langs')
+  const languages = fs.readdirSync(langsPath)
+  let language = 'en'
+
+  if (languages.length > 0) {
+    /**
+     * @type {{ lang: string }}
+     */
+    const { lang } = await prompt({
+      type: "select",
+      name: "lang",
+      // format(name) {
+      //   const variant = frameworkInfo.variants.find((v) => v.name === name)
+      //   return variant ? variant.color(variant.display || variant.name) : name
+      // },
+      message: "Select a variant:",
+      choices: languages.map((v) => ({
+        name: v,
+        value: v,
+        message: v,
+      })),
+    })
+    language = lang
+  }
+
+  const languageObj = require(path.join(path.join(langsPath, language), 'index.json'))
+
   console.log(`\nScaffolding project in ${root}...`)
 
   const templateDir = path.join(__dirname, `template-${template}`)
@@ -276,7 +304,36 @@ async function init() {
     }
   }
 
+  const copy = (src, dest) => {
+    const stat = fs.statSync(src)
+    if (stat.isDirectory()) {
+      copyDir(src, dest)
+    } else {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension)
+  
+      if (name in languageObj) {
+        const content = fs.readFileSync(src)
+        const output = mustache.render(content.toString(), languageObj[name])
+        // constle.log()
+        fs.writeFileSync(dest, output)
+      } else {
+        fs.copyFileSync(src, dest)
+      }
+    }
+  }
+
+  const copyDir = (srcDir, destDir) => {
+    fs.mkdirSync(destDir, { recursive: true })
+    for (const file of fs.readdirSync(srcDir)) {
+      const srcFile = path.resolve(srcDir, file)
+      const destFile = path.resolve(destDir, file)
+      copy(srcFile, destFile)
+    }
+  }
+
   const files = fs.readdirSync(templateDir)
+  
   for (const file of files.filter((f) => f !== "package.json")) {
     write(file)
   }
@@ -298,15 +355,6 @@ async function init() {
   console.log(`  dfx deploy`)
   console.log(`  ${pkgManager === "yarn" ? `yarn dev` : `npm run dev`}`)
   console.log()
-}
-
-function copy(src, dest) {
-  const stat = fs.statSync(src)
-  if (stat.isDirectory()) {
-    copyDir(src, dest)
-  } else {
-    fs.copyFileSync(src, dest)
-  }
 }
 
 async function getValidPackageName(projectName) {
@@ -333,15 +381,6 @@ async function getValidPackageName(projectName) {
         packageNameRegExp.test(input) ? true : "Invalid package.json name",
     })
     return inputPackageName
-  }
-}
-
-function copyDir(srcDir, destDir) {
-  fs.mkdirSync(destDir, { recursive: true })
-  for (const file of fs.readdirSync(srcDir)) {
-    const srcFile = path.resolve(srcDir, file)
-    const destFile = path.resolve(destDir, file)
-    copy(srcFile, destFile)
   }
 }
 
