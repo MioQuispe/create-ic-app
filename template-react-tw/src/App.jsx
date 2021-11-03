@@ -35,7 +35,7 @@ function App() {
             aria-label="Increment value"
             onClick={onIncrementClick}
           >
-            count is: {count}
+            ${{CountIs}}: {count}
           </button>
         </p>
         <p>
@@ -48,7 +48,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            IC SDK Docs
+            ${{ICSDKDocs}}
           </a>
 
           {" | "}
@@ -58,7 +58,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            ${{ViteDocs}}
           </a>
           {" | "}
           <a

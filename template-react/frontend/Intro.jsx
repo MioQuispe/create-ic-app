@@ -23,7 +23,7 @@ export function Intro() {
     <>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ fontSize: "2em", marginBottom: "0.5em" }}>Ready. Lets build the new web</p>
+        <p style={{ fontSize: "2em", marginBottom: "0.5em" }}>${{Ready}}</p>
         <div style={{
           display: "flex",
           fontSize: "0.7em",
@@ -35,20 +35,20 @@ export function Intro() {
         }}>
           <div>
             <code>npm run dev:</code>
-            <span> Runs the development server</span>
+            <span> ${{RunDev}}</span>
           </div>
           <div>
             <code>npm run build:</code>
-            <span> Builds your frontend for production</span>
+            <span> ${{RunProd}}</span>
           </div>
           <div>
             <code>npm run serve:</code>
-            <span> Serves your production-built frontend locally</span>
+            <span> ${{RunServe}}</span>
           </div>
           <hr/>
           <div>
             <code>dfx deploy:</code>
-            <span> Compiles & deploys your canisters</span>
+            <span> ${{deploy}}</span>
           </div>
           <div style={{textAlign: "center", fontSize: "0.8em", marginTop: "2em"}}>
             <a
@@ -57,7 +57,7 @@ export function Intro() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Vite Docs
+              ${{ViteDocs}}
             </a>
             {" | "}
             <a
@@ -66,15 +66,15 @@ export function Intro() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              IC SDK Docs
+              ${{ICSDKDocs}}
             </a>
           </div>
         </div>
         <button className="demo-button" onClick={onIncrementClick}>
-          Count is: {count}
+          ${{CountIs}}: {count}
         </button>
         <p style={{fontSize: "0.6em"}}>
-          This counter is running inside a canister
+          ${{counterDesc}}
         </p>
         <p style={{fontSize: "0.4em"}}>by <a href="https://twitter.com/miamaruq">@miamaruq</a></p>
       </header>

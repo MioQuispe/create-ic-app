@@ -1,0 +1,18 @@
+{
+    "Auth": {
+        "SignIn": "登录",
+        "SignInAs": "登录账户为",
+        "SignOut": "退出"
+    },
+    "Intro": {
+        "Ready": "准备，让我们开启web构建之路",
+        "RunDev": "运行开发环境服务",
+        "RunProd": "构建你的前端到生产环境",
+        "RunServe": "开启本地服务运行生产环境前端",
+        "deploy": "编译并部署你的canisters",
+        "ViteDocs": "Vite 文档",
+        "ICSDKDocs": "IC SDK 文档",
+        "CountIs": "计数器为",
+        "counterDesc": "计数器运行在canister中"
+    }
+}

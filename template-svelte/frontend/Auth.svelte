@@ -48,14 +48,14 @@
 
   {#if !signedIn && client}
     <button on:click={signIn} class="auth-button">
-      Sign In
+      ${{SignIn}}
       <img alt="" style="width: 33px; margin-right: -1em; margin-left: 0.7em;" src={dfinityLogo} />
     </button>
   {/if}
 
   {#if signedIn}
-    <p>Signed in as: {principal}</p>
-    <button on:click={signOut} class="auth-button">Sign out</button>
+    <p>${{SignInAs}}: {principal}</p>
+    <button on:click={signOut} class="auth-button">${{SignOut}}</button>
   {/if}
 </div>
 

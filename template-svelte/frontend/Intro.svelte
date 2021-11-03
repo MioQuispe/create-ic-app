@@ -20,25 +20,25 @@
 
 <header class="App-header">
   <img src={logo} class="App-logo" alt="logo" />
-  <p style="font-size: 2em; margin-bottom: 0.5em">Ready. Lets build the new web</p>
+  <p style="font-size: 2em; margin-bottom: 0.5em">${{Ready}}</p>
   <div
     style="display: flex; font-size: 0.7em; text-align: left; padding: 2em; border-radius: 30px; flex-direction: column; background: rgb(220 218 224 / 25%);">
     <div>
       <code>npm run dev:</code>
-      <span> Runs the development server</span>
+      <span> ${{RunDev}}</span>
     </div>
     <div>
       <code>npm run build:</code>
-      <span> Builds your frontend for production</span>
+      <span> ${{RunProd}}</span>
     </div>
     <div>
       <code>npm run serve:</code>
-      <span> Serves your production-built frontend locally</span>
+      <span> ${{RunServe}}</span>
     </div>
     <hr />
     <div>
       <code>dfx deploy:</code>
-      <span> Compiles & deploys your canisters</span>
+      <span> ${{deploy}}</span>
     </div>
     <div style="text-align: center; font-size: 0.8em; margin-top: 2em;">
       <a
@@ -47,7 +47,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        Vite Docs
+        ${{ViteDocs}}
       </a>
       {" | "}
       <a
@@ -56,15 +56,15 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        IC SDK Docs
+        ${{ICSDKDocs}}
       </a>
     </div>
   </div>
   <button class="demo-button" on:click={increment}>
-    Count is: {count}
+    ${{CountIs}}: {count}
   </button>
   <p style="font-size: 0.6em;">
-    This counter is running inside a canister
+    ${{counterDesc}}
   </p>
   <p style="font-size: 0.4em;">by <a href="https://twitter.com/miamaruq">@miamaruq</a></p>
 </header>
