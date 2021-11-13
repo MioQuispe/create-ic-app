@@ -8,13 +8,13 @@ Use your favourite frontend framework with the Internet Computer. Powered by [Vi
 - Internet Identity auth example included
 - Easily configurable when needed (see vite docs)
 
+
+## Quick start
 #### Requirements
 
 * [DFINITY Canister SDK](https://dfinity.org/developers/) latest version (v0.8.1)
 * [NodeJS](https://nodejs.org) version >= 12
 
-
-## Quick start
 
 **1.** Start the wizard and choose your preferred settings (npx comes with NodeJS)
 ```
