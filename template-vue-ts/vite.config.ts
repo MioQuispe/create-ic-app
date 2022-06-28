@@ -69,6 +69,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Here we tell Vite the "fake" modules that we want to define
+      "vue": path.resolve("./node_modules/vue"),
       ...aliases,
     },
   },
@@ -79,7 +80,7 @@ export default defineConfig({
     proxy: {
       // This proxies all http requests made to /api to our running dfx instance
       "/api": {
-        target: `http://localhost:${DFX_PORT}`,
+        target: `http://0.0.0.0:${DFX_PORT}`,
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, "/api"),
       },

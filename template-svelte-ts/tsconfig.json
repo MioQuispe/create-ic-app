@@ -17,6 +17,7 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     /**
@@ -29,12 +30,7 @@
     "checkJs": true,
     "types": [
       "vite/client"
-    ],
-    "paths": {
-      "canisters/counter": [
-        ".dfx/local/canisters/counter"
-      ]
-    }
+    ]
   },
   /**
    * Use global.d.ts instead of compilerOptions.types

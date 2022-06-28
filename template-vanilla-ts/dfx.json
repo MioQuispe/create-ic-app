@@ -1,7 +1,7 @@
 {
   "canisters": {
     "counter": {
-      "main": "src/backend/counter/main.mo",
+      "main": "canisters/counter/main.mo",
       "type": "motoko"
     },
     "assets": {
@@ -22,11 +22,16 @@
       "packtool": ""
     }
   },
-  "dfx": "0.7.0",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
       "type": "ephemeral"
+    },
+    "ic": {
+      "providers": [
+        "https://mainnet.dfinity.network"
+      ],
+      "type": "persistent"
     }
   },
   "version": 1

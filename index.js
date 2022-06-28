@@ -107,17 +107,12 @@ const FRAMEWORKS = [
       },
     ],
   },
-  {
-    name: "community templates",
-    color: magenta,
-    variants: [
-      {
-        name: "react-tw",
-        display: "JS + Tailwind (by ferMartz)",
-        color: lightBlue,
-      },
-    ],
-  },
+  // {
+  //   name: "community templates",
+  //   color: magenta,
+  //   variants: [
+  //   ],
+  // },
   // {
   //   name: 'preact',
   //   color: magenta,

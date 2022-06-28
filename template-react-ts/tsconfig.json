@@ -13,7 +13,7 @@
     "skipLibCheck": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -21,12 +21,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "baseUrl": ".",
-    "paths": {
-      "canisters/counter": [
-        ".dfx/local/canisters/counter"
-      ]
-    }
+    "baseUrl": "."
   },
   "include": [
     "./frontend"

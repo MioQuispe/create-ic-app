@@ -1,5 +1,5 @@
 {
-  "name": "my-ic-app",
+  "name": "ic-app-vue",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,18 +7,17 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@dfinity/agent": "0.10.0",
-    "@dfinity/auth-client": "0.10.0",
-    "@dfinity/authentication": "0.10.0",
-    "@dfinity/principal": "0.10.0",
-    "@dfinity/candid": "0.10.0",
-    "@dfinity/identity": "0.10.0",
-    "vue": "^3.0.5"
+    "@connect2ic/core": "^0.1.1",
+    "@connect2ic/vue": "^0.1.1",
+    "@dfinity/agent": "^0.11.3",
+    "@dfinity/candid": "^0.11.3",
+    "@dfinity/principal": "^0.11.3",
+    "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.1",
-    "@vue/compiler-sfc": "^3.0.5",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/compiler-sfc": "^3.2.37",
     "buffer": "^6.0.3",
-    "vite": "^2.5.7"
+    "vite": "^2.9.13"
   }
 }

@@ -1,7 +1,7 @@
 {
   "canisters": {
     "counter": {
-      "main": "counter-canister/main.mo",
+      "main": "canisters/counter/main.mo",
       "type": "motoko"
     },
     "assets": {
@@ -22,7 +22,6 @@
       "packtool": ""
     }
   },
-  "dfx": "0.8.1",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",

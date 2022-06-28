@@ -20,14 +20,7 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "baseUrl": ".",
-    "paths": {
-      "dfx-generated/counter": [
-        ".dfx/local/canisters/counter/counter.js",
-      ]
-    }
+    "baseUrl": "."
   },
-  "include": [
-    "./src"
-  ]
+  "include": ["./frontend"]
 }
