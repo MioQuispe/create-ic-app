@@ -1,13 +1,8 @@
-<img height=160 src="https://sdk.dfinity.org/_/img/logo-dark.svg" />
+<img height=180 src="https://cryptologos.cc/logos/internet-computer-icp-logo.png" />
 
 # Create IC App
 
 Use your favourite frontend framework with the Internet Computer. Powered by [ViteJS](https://vitejs.dev/)
-
-- Modern and unopinionated templates
-- Internet Identity auth example included
-- Easily configurable when needed (see vite docs)
-
 
 ## Quick start
 #### Requirements
@@ -36,7 +31,7 @@ npm run dev
 
 **3.** Thats it! Ready to go.
 
-<img width=600 src="https://i.imgur.com/5Lf5i7v.png" />
+<img width=600 src="https://uc45eaece833943c914e343caf9d.previews.dropboxusercontent.com/p/thumb/ABkXJfdlQU3UwGnI9ChHjLQATneCMmyJnHnmrRiHTSJOgbLPjZbmDHU-je2QbVffttvwJY_n341XXQpY22nMBdVfNZrAp30BnQ7uqO48uoOuJ3rToiZopykfmwi8cQy4RJoPpiR3Q2PlY7DVZ0iJ3F31hmctpWwJLPP7zjttco4S94IGKe-TU6Viby2cdgo8_qw7ztAKoO816B75iHjt1OmPuVD7pdN6Ob1prYwDWspWjAhN4Ll28ST8XvhxJzPd4gqmS79EcD-Cso4SlkKSdcw4feKBcPh7_RfDzLsmy8QjjpeOS7JnyknnO-V7iyFQ8oAdDptLnIl9hvWbOMeGZcaZ6B3MS0vQoIeM0nkbxD8H8xB_e_u2wqoXCbtLgdJNoeb52A6pWzrvYYFn3Zges0lH/p.png" />
 
 
 ## Canisters
