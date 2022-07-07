@@ -7,7 +7,7 @@ Use your favourite frontend framework with the Internet Computer. Powered by [Vi
 ## Quick start
 #### Requirements
 
-* [DFINITY Canister SDK](https://dfinity.org/developers/) latest version (v0.8.1)
+* [DFINITY Canister SDK](https://dfinity.org/developers/) latest version
 * [NodeJS](https://nodejs.org) version >= 12
 
 
